@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>… About · Your Name</title>
+  <meta name="description" content="Who I am." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <nav class="site-nav">
+    <a class="brand" href="index.html">Your Name</a>
+    <a href="about.html" aria-current="page">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html">Projects</a>
+    <a href="teaching.html">Teaching</a>
+  </nav>
+
+  <!-- Content lives in content/about.md — edit that file, not this one. -->
+  <main data-md="content/about.md"></main>
+
+  <footer class="site-footer">
+    <p>Read this page as plain text: <a href="content/about.md">content/about.md</a></p>
+  </footer>
+
+  <script src="assets/marked.min.js"></script>
+  <script>window.SITE_NAME = "Your Name";</script>
+  <script src="assets/render.js"></script>
+</body>
+</html>

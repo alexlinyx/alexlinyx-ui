@@ -1,0 +1,17 @@
+# Your Name — Personal Knowledge Base
+
+> TODO: One-line bio. This file follows the llms.txt convention (llmstxt.org):
+> an index of the site's content for LLMs. The links point at raw Markdown,
+> which is the cleanest form to read. Replace https://alexlinyx.com with your domain.
+
+## Pages
+
+- [About](https://alexlinyx.com/content/about.md): who I am
+- [Experience](https://alexlinyx.com/content/experience.md): education and work history
+- [Research](https://alexlinyx.com/content/research.md): research projects and publications
+- [Projects](https://alexlinyx.com/content/projects.md): personal and side projects
+- [Teaching](https://alexlinyx.com/content/teaching.md): classes I teach
+
+## Optional
+
+- [Everything, inline](https://alexlinyx.com/llms-full.txt): all pages concatenated
