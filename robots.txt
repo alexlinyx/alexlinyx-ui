@@ -23,6 +23,3 @@ Allow: /
 
 User-agent: Google-Extended
 Allow: /
-
-# TODO: replace with your domain.
-Sitemap: https://alexlinyx.com/sitemap.xml

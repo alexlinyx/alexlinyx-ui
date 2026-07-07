@@ -1,3 +1,8 @@
+---
+# Site brand shown in the nav on every page. Edit here to rebrand everywhere.
+brand: alexlinyx
+---
+
 # Alex Y. Lin
 
 <!-- TODO: One or two sentences on who you are and what you do. -->

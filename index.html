@@ -3,33 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name · Personal Knowledge Base</title>
+  <title>Personal Knowledge Base</title>
   <meta name="description" content="Who I am, my education and work experience, research, personal projects, and classes I teach." />
-
-  <!-- Structured data for search engines & AI crawlers. Fill in the TODO fields. -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Your Name",
-    "url": "https://alexlinyx.com",
-    "jobTitle": "TODO: your title",
-    "description": "TODO: one-line bio.",
-    "alumniOf": "TODO: your university",
-    "worksFor": "TODO: your employer/org",
-    "sameAs": [
-      "https://github.com/TODO",
-      "https://www.linkedin.com/in/TODO",
-      "https://scholar.google.com/citations?user=TODO"
-    ]
-  }
-  </script>
 
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
   <nav class="site-nav">
-    <a class="brand" href="index.html">Your Name</a>
+    <a class="brand" href="index.html"></a>
     <a href="about.html">About</a>
     <a href="research.html">Research</a>
     <a href="projects.html">Projects</a>
@@ -39,7 +20,7 @@
   <!-- Homepage intro comes from content/home.md (single source of truth). -->
   <main data-md="content/home.md"></main>
 
-  <!-- Prominent links to the three project areas. Static so crawlers see them. -->
+  <!-- Prominent links to the three project areas. -->
   <ul class="cards" aria-label="Explore">
     <li><a href="research.html"><strong>Research</strong><span>Research projects & publications</span></a></li>
     <li><a href="projects.html"><strong>Projects</strong><span>Personal & side projects</span></a></li>
@@ -47,7 +28,7 @@
   </ul>
 
   <footer class="site-footer">
-    <p>For machines: <a href="llms.txt">llms.txt</a> · <a href="sitemap.xml">sitemap.xml</a></p>
+    <p>For machines: <a href="llms.txt">llms.txt</a></p>
   </footer>
 
   <script src="assets/marked.min.js"></script>
