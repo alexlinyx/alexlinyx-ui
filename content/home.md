@@ -1,10 +1,9 @@
-# Your Name
+# Alex Y. Lin
 
 <!-- TODO: One or two sentences on who you are and what you do. -->
-I'm a _[role]_ working on _[what]_. This site is a knowledge base about me — my
-background, experience, and the research, projects, and teaching I'm involved in.
+Welcome to my site! It is a knowledge base of my research and projects. Feel free to browse here or ask your agent to read llm.txt. I'm currently the Computer Science Lead at the Belldegrun Center for Innovative Leadership at Brentwood School in Los Angeles, CA.
 
 <!-- Optional: contact / links -->
-- Email: <!-- TODO -->
-- GitHub: <!-- TODO -->
+- Email: alin@bwscampus.com
+- GitHub: https://github.com/alexlinyx
 - LinkedIn: <!-- TODO -->

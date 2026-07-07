@@ -6,11 +6,10 @@
 
 ## Pages
 
-- [About](https://alexlinyx.com/content/about.md): who I am
-- [Experience](https://alexlinyx.com/content/experience.md): education and work history
+- [About](https://alexlinyx.com/content/about.md): who I am, plus education and work history
 - [Research](https://alexlinyx.com/content/research.md): research projects and publications
 - [Projects](https://alexlinyx.com/content/projects.md): personal and side projects
-- [Teaching](https://alexlinyx.com/content/teaching.md): classes I teach
+- [Classes](https://alexlinyx.com/content/classes.md): classes I teach
 
 ## Optional
 

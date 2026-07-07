@@ -4,5 +4,5 @@
 > read everything in one request. Keep in sync with content/*.md, or delete this
 > file and rely on llms.txt + the individual .md links instead.
 
-<!-- Paste content of content/about.md, experience.md, research.md,
-     projects.md, teaching.md here, separated by "---". -->
+<!-- Paste content of content/about.md, research.md, projects.md,
+     classes.md here, separated by "---". -->
