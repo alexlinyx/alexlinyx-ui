@@ -11,4 +11,5 @@ Welcome to my site! It is a knowledge base of my research and projects. Feel fre
 <!-- Optional: contact / links -->
 - Email: alin@bwscampus.com
 - GitHub: https://github.com/alexlinyx
-- LinkedIn: <!-- TODO -->
+- LinkedIn: https://www.linkedin.com/in/alex-y-lin-293757190
+- Substack: https://alexlinyx.substack.com/
