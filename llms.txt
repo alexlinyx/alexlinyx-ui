@@ -1,16 +1,17 @@
-# Your Name — Personal Knowledge Base
+# Alex Y. Lin
 
-> TODO: One-line bio. This file follows the llms.txt convention (llmstxt.org):
-> an index of the site's content for LLMs. The links point at raw Markdown,
-> which is the cleanest form to read. Replace https://alexlinyx.com with your domain.
+> Personal knowledge base of Alex Y. Lin — Computer Science Lead at the Belldegrun Center for Innovative Leadership at Brentwood School in Los Angeles, CA. This site collects my background, research, projects, and the classes I teach. Each page below links to its raw Markdown, which is the cleanest form for an LLM to read.
 
 ## Pages
 
-- [About](https://alexlinyx.com/content/about.md): who I am, plus education and work history
-- [Research](https://alexlinyx.com/content/research.md): research projects and publications
-- [Projects](https://alexlinyx.com/content/projects.md): personal and side projects
-- [Classes](https://alexlinyx.com/content/classes.md): classes I teach
+- [About](https://alexlinyx.com/content/about.md): Who I am — background, interests, education, and work history
+- [Research](https://alexlinyx.com/content/research.md): Research projects and publications
+- [Projects](https://alexlinyx.com/content/projects.md): Personal and side projects
+- [Classes](https://alexlinyx.com/content/classes.md): Classes I teach
 
-## Optional
+## Contact
 
-- [Everything, inline](https://alexlinyx.com/llms-full.txt): all pages concatenated
+- Email: alin@bwscampus.com
+- GitHub: https://github.com/alexlinyx
+- LinkedIn: https://www.linkedin.com/in/alex-y-lin-293757190
+- Substack: https://alexlinyx.substack.com/

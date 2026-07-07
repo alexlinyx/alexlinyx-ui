@@ -3,36 +3,42 @@
 <!-- TODO: Who you are, in a few paragraphs. Background, interests, what drives
      your work. Write naturally — this text is read by both people and AI agents,
      so plain, factual prose works best. -->
+I'm currently the Computer Science Lead at the Belldegrun Center for Innovative Leadership at Brentwood School in Los Angeles, CA.
 
-## Interests
-
-<!-- TODO: bullet list of areas / topics -->
-- 
-- 
 
 ## Work
 
 <!-- TODO: Reverse-chronological. Repeat the block per role. -->
-### Job Title — Organization
-_Start – End (or "Present")_
+### Trader — Anagram
+_2024 - 2025_
 
-- What you did / impact.
-- 
+- anagram.xyz
+- Portfolio Manager of liquid fund
+- DeFi yield arbitrage
+- Risk & Treasury Management
 
-### Job Title — Organization
-_Start – End_
 
-- 
+### Trader — Galaxy
+_2022 - 2024_
+
+- galaxy.com
+- Cryptocurrency Derivatives OTC desk
+- Trading Systems & Market Data Engineer
 
 ## Education
 
 <!-- TODO: Reverse-chronological. Repeat per degree. -->
-### Degree, Field — Institution
-_Year – Year_
+### BA Mathematics & Computer Science - Cornell University
+_2018 - 2022_
 
-- Thesis / focus / honors (optional).
 
-## Elsewhere
+## Interests
+
+<!-- TODO: bullet list of areas / topics -->
+- Coffee
+- 
+
+## Links
 
 <!-- TODO: links to profiles, CV, etc. -->
-- 
+- [direct link to CV]

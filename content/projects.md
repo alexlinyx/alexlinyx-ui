@@ -2,12 +2,12 @@
 
 <!-- TODO: Personal / side projects. Repeat the block per project. -->
 
-### Project Name
-_Year · [repo]() · [demo]()_
+### LinBot
+_2026 · [https://github.com/alexlinyx/lin-bot]() · [demo]()_
 
-What it is and why you built it. Tech used.
+Response bot with knowledge base from alexlinyx.com
 
-### Project Name
-_Year · [repo]()_
+### Central Bank Digital Currency
+_2022 · [https://github.com/alexlinyx/central-bank-digital-currency]()_
 
-Description.
+Scaling cloud computing for a highthroughput centralized blockchain. 
