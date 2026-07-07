@@ -7,6 +7,10 @@
 - [About](https://alexlinyx.com/content/about.md): Who I am — background, interests, education, and work history
 - [Research](https://alexlinyx.com/content/research.md): Research projects and publications
 - [Projects](https://alexlinyx.com/content/projects.md): Personal and side projects
+
+## Work — Brentwood School (BWS)
+
+- [BWS](https://alexlinyx.com/content/bws.md): My work as Computer Science Lead at Brentwood School
 - [Classes](https://alexlinyx.com/content/classes.md): Classes I teach
 
 ## Contact
