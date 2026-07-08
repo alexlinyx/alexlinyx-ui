@@ -3,7 +3,7 @@
 <!-- TODO: Who you are, in a few paragraphs. Background, interests, what drives
      your work. Write naturally — this text is read by both people and AI agents,
      so plain, factual prose works best. -->
-I'm currently the Computer Science Lead at the Belldegrun Center for Innovative Leadership at Brentwood School in Los Angeles, CA.
+UNDER CONSTRUCTION
 
 
 ## Work
