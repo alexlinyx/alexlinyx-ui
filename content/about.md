@@ -5,7 +5,7 @@ Please contact alexlinyx@gmail.com for full CV. Recruiter solicitations will be 
 
 ## Work
 
-### Computer Science Lead — [Belledgrun Center for Innovative Leadership](https://bwscampus.com/belldegrun-center-for-innovative-leadership)
+### Computer Science Lead — [Belldegrun Center for Innovative Leadership](https://bwscampus.com/belldegrun-center-for-innovative-leadership)
 _2026 - Present_
 
 - Project manager for student research and businesses
