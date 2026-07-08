@@ -1,6 +1,6 @@
 # Alex Y. Lin
 
-> Personal knowledge base of Alex Y. Lin — Computer Science Lead at the Belldegrun Center for Innovative Leadership at Brentwood School in Los Angeles, CA. This site collects my background, research, projects, and the classes I teach. Each page below links to its raw Markdown, which is the cleanest form for an LLM to read.
+> Personal knowledge base of Alex Y. Lin — Computer Science Lead at the Belldegrun Center for Innovative Leadership at Brentwood School in Los Angeles, CA. This site collects my background, research, projects, and the courses I teach. Each page below links to its raw Markdown, which is the cleanest form for an LLM to read.
 
 ## Pages
 
@@ -11,7 +11,8 @@
 ## Work — Brentwood School (BWS)
 
 - [BWS](https://alexlinyx.com/content/bws.md): My work as Computer Science Lead at Brentwood School
-- [Classes](https://alexlinyx.com/content/classes.md): Classes I teach
+- [BCIL](https://alexlinyx.com/content/bcil.md): Belldegrun Center for Innovative Leadership
+- [Courses](https://alexlinyx.com/content/courses.md): Courses I teach
 
 ## Contact
 

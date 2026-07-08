@@ -1,6 +1,6 @@
-# Classes
+# Courses
 
-<!-- TODO: Brief note on the classes you teach. Repeat the block per class. -->
+<!-- TODO: Brief note on the courses you teach. Repeat the block per course. -->
 UNDER CONSTRUCTION
 
 ### Course Number — Course Title
