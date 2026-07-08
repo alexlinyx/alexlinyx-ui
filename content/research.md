@@ -16,4 +16,4 @@ Short description of the problem and your contribution.
 ## Publications
 
 <!-- TODO: List publications, newest first. -->
-- Authors. **Title.** Venue, Year. [link]()
+- Authors. **Title.** Venue, Year. <!-- TODO: [link](URL) -->

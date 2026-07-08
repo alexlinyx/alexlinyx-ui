@@ -3,11 +3,12 @@
 <!-- TODO: Personal / side projects. Repeat the block per project. -->
 
 ### LinBot
-_2026 · [Github] (https://github.com/alexlinyx/lin-bot) · [demo]()_
+_2026 · [GitHub](https://github.com/alexlinyx/lin-bot)_
+<!-- TODO: add a demo link, e.g. · [demo](https://…) -->
 
 Response bot with knowledge base from alexlinyx.com
 
 ### Central Bank Digital Currency
-_2022 · [Github] (https://github.com/alexlinyx/central-bank-digital-currency)_
+_2022 · [GitHub](https://github.com/alexlinyx/central-bank-digital-currency)_
 
 Scaling cloud computing for a highthroughput centralized blockchain. 

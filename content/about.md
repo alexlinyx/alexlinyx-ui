@@ -9,7 +9,7 @@ UNDER CONSTRUCTION
 ## Work
 
 <!-- TODO: Reverse-chronological. Repeat the block per role. -->
-### Software Engineer — [Anagram] (https://anagram.xyz)
+### Software Engineer — [Anagram](https://anagram.xyz)
 _2024 - 2025_
 
 - Portfolio Manager of liquid fund
@@ -17,7 +17,7 @@ _2024 - 2025_
 - Risk & Treasury Management
 
 
-### Trader — [Galaxy] (https://galaxy.com)
+### Trader — [Galaxy](https://galaxy.com)
 _2022 - 2024_
 
 - Cryptocurrency Derivatives OTC desk
