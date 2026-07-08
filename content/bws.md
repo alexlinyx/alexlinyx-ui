@@ -1,15 +1,17 @@
 # Brentwood School
 
-I'm the Computer Science Lead at the Belldegrun Center for Innovative
-Leadership (BWS) at Brentwood School in Los Angeles, CA.
+Welcome students! 
 
-Students, please see "Courses" for current and past course offerings, and "BCIL" for more information on the BCIL program and our independent studies offerings. 
+My name is Mr. Lin. I'm the Computer Science Lead at the Belldegrun Center for Innovative Leadership.
+My focus is on supporting projects involving programming and AI to help scale startups from idea to product.
+I studied Math and Computer Science and Cornell, and worked in the fintech and cryptocurrency space for 4 years after graduation. If you have interests in trading, blockchains, or AI, feel free to swing by my office for a chat anytime.
 
-<!-- TODO: A short paragraph on your work at BWS — what the program is,
-     what you're building, who it's for. -->
+See "Courses" for details about current and past course offerings.
+See "BCIL" for more information on the program and independent studies.
+
+Prospective parents or students interested in Brentwood and BCIL,
+please explore the links below or email alin@bwscampus.com for more info.
 
 ## Explore
 
-- [BCIL](/bcil) — Belldegrun Center for Innovative Leadership
-- [Courses](/courses) — courses I teach
 - [Book Meeting](https://calendar.app.google/DXtPs7WD5sxJ5HwS7) — schedule time with me
