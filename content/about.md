@@ -9,19 +9,17 @@ UNDER CONSTRUCTION
 ## Work
 
 <!-- TODO: Reverse-chronological. Repeat the block per role. -->
-### Trader — Anagram
+### Software Engineer — [Anagram] (https://anagram.xyz)
 _2024 - 2025_
 
-- anagram.xyz
 - Portfolio Manager of liquid fund
 - DeFi yield arbitrage
 - Risk & Treasury Management
 
 
-### Trader — Galaxy
+### Trader — [Galaxy] (https://galaxy.com)
 _2022 - 2024_
 
-- galaxy.com
 - Cryptocurrency Derivatives OTC desk
 - Trading Systems & Market Data Engineer
 
@@ -37,8 +35,3 @@ _2018 - 2022_
 <!-- TODO: bullet list of areas / topics -->
 - Coffee
 - 
-
-## Links
-
-<!-- TODO: links to profiles, CV, etc. -->
-- [direct link to CV]

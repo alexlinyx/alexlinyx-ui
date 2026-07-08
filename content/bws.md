@@ -9,4 +9,4 @@ Leadership (BWS) at Brentwood School in Los Angeles, CA.
 ## Explore
 
 - [Classes](/classes) — classes I teach
-- <a href="https://calendar.app.google/DXtPs7WD5sxJ5HwS7" target="_blank" rel="noopener">Book Meeting</a> — schedule time with me
+- [Book Meeting](https://calendar.app.google/DXtPs7WD5sxJ5HwS7) — schedule time with me

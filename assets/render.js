@@ -68,6 +68,16 @@
       // Render the page body (minus any frontmatter) and set the title.
       if (mount) {
         mount.innerHTML = marked.parse(parseFrontmatter(pageRaw).body);
+
+        // Open external links in a new tab (keeps Markdown links clean —
+        // no need for raw <a target="_blank"> in the content files).
+        mount.querySelectorAll('a[href]').forEach((a) => {
+          if (/^https?:\/\//i.test(a.getAttribute('href')) && a.host !== location.host) {
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+          }
+        });
+
         if (isHome) {
           document.title = `${siteName} · Personal Knowledge Base`;
         } else {
