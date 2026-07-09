@@ -18,6 +18,6 @@ Prospective parents or students interested in Brentwood and BCIL,
 please explore the links below or email alin@bwscampus.com for more info.
 
 ## Explore
-- [BCIL](/bcil) - infomation on independent studies
-- [Courses](/courses) - current and past course offerings
+- [BCIL](/bcil) — information on independent studies
+- [Courses](/courses) — current and past course offerings
 - [Book Meeting](https://calendar.app.google/DXtPs7WD5sxJ5HwS7) — schedule time with me
