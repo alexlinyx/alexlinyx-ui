@@ -69,7 +69,12 @@ main {
 main h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.75rem; }
 main h2 { font-size: 1.35rem; margin: 2rem 0 0.5rem; }
 main h3 { font-size: 1.1rem; margin: 1.5rem 0 0.35rem; }
-main p { margin: 0.75rem 0; }
+main p {
+  margin: 0.75rem 0;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
 main a { color: var(--accent); }
 main ul, main ol { padding-left: 1.4rem; }
 main li { margin: 0.3rem 0; }
