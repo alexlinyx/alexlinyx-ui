@@ -1,9 +1,13 @@
 // Renders the Markdown file named in <main data-md="..."> into that element,
-// and pulls two things out of content/home.md so the Markdown stays the single
-// source of truth for the whole site:
-//   * the site "brand" (frontmatter `brand:`) — shown in the nav on every page
-//   * the person's name (first "# H1") — used to build page/tab titles
-// Edit content/*.md, never the HTML shells.
+// and pulls the "brand" (frontmatter `brand:`) + name (first "# H1") from a
+// brand source file so Markdown stays the single source of truth for both the
+// prose AND the site's identity. Edit content/*.md, never the HTML shells.
+//
+// The brand source defaults to content/home.md (the alexlinyx site). A page
+// can belong to a differently-branded section by setting
+//   <body data-brand-src="content/<section>.md">
+// e.g. the BWS pages brand themselves from content/bws.md, so they read "bws"
+// in the nav and titles and never link back to the alexlinyx home.
 //
 // Zero build: this runs in the browser using the vendored marked.min.js.
 // The same .md files are what an LLM reads directly over HTTP (see /llms.txt).
@@ -13,6 +17,10 @@
 
   const mount = document.querySelector('main[data-md]');
   const src = mount ? mount.getAttribute('data-md') : null;
+
+  // Where this page gets its brand/identity from (defaults to the home page).
+  const brandSrc = document.body.getAttribute('data-brand-src') || HOME_SRC;
+  const isSection = brandSrc !== HOME_SRC; // a self-branded section (e.g. BWS)
 
   const fetchText = (url) =>
     fetch(url, { cache: 'no-cache' }).then((res) => {
@@ -44,21 +52,24 @@
     return m ? m[1].trim() : '';
   };
 
-  // Fetch the current page's Markdown (if any) and home.md for brand + name.
-  // On the home page these are the same file, so don't fetch it twice.
+  // Fetch the current page's Markdown (if any) and the brand source.
+  // When the page IS the brand source, don't fetch it twice.
   const pageMd = src ? fetchText(src) : Promise.resolve('');
   const isHome = !!src && src.endsWith('home.md');
-  const homeMd = isHome ? pageMd : fetchText(HOME_SRC).catch(() => '');
+  const brandMd = src && src === brandSrc ? pageMd : fetchText(brandSrc).catch(() => '');
 
   marked.setOptions({ gfm: true, breaks: false });
 
-  Promise.all([pageMd, homeMd])
-    .then(([pageRaw, homeRaw]) => {
-      const home = parseFrontmatter(homeRaw);
-      const siteName = firstH1(home.body) || FALLBACK_NAME;
-      const brand = home.data.brand || siteName;
-      window.SITE_NAME = siteName;
+  Promise.all([pageMd, brandMd])
+    .then(([pageRaw, brandRaw]) => {
+      const bctx = parseFrontmatter(brandRaw);
+      const brandName = firstH1(bctx.body) || FALLBACK_NAME; // e.g. "Alex Y. Lin"
+      const brand = bctx.data.brand || brandName; // e.g. "alexlinyx" / "bws"
+      // Titles: a self-branded section uses its brand; the personal site keeps
+      // the person's name.
+      const titleName = isSection ? brand : brandName;
       window.SITE_BRAND = brand;
+      if (!isSection) window.SITE_NAME = brandName;
 
       // Site brand in the nav on every page.
       document.querySelectorAll('.brand').forEach((el) => {
@@ -79,10 +90,10 @@
         });
 
         if (isHome) {
-          document.title = `${siteName} · Personal Knowledge Base`;
+          document.title = `${titleName} · Personal Knowledge Base`;
         } else {
           const h1 = mount.querySelector('h1');
-          if (h1) document.title = `${h1.textContent} · ${siteName}`;
+          if (h1) document.title = `${h1.textContent} · ${titleName}`;
         }
       }
     })

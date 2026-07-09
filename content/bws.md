@@ -1,11 +1,16 @@
-# Brentwood School
+---
+# Brand for the BWS section — shown in the nav on every BWS page.
+brand: bws
+---
+
+# Mr. Lin's Homepage
 
 Welcome students! 
 
-My name is Mr. Lin. I'm the Computer Science Lead at the Belldegrun Center for Innovative Leadership.
+I'm the Computer Science Lead at the Belldegrun Center for Innovative Leadership.
 My focus is on supporting student projects involving programming and AI. 
 I graduated from Brentwood in 2018, then studied Math and Computer Science at Cornell. 
-I previously worked in fintech: trading cryptocurrencies and building blockchains.
+Feel free to come chat with me about my previous work in trading and crypto.
 
 ---
 
@@ -13,6 +18,6 @@ Prospective parents or students interested in Brentwood and BCIL,
 please explore the links below or email alin@bwscampus.com for more info.
 
 ## Explore
-- [BCIL](/bcil) - info on independent studies
+- [BCIL](/bcil) - infomation on independent studies
 - [Courses](/courses) - current and past course offerings
 - [Book Meeting](https://calendar.app.google/DXtPs7WD5sxJ5HwS7) — schedule time with me
