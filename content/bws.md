@@ -20,4 +20,4 @@ please explore the links below or email alin@bwscampus.com for more info.
 ## Explore
 - [BCIL](/bcil) — information on independent studies
 - [Courses](/courses) — current and past course offerings
-- [Book Meeting](https://calendar.app.google/DXtPs7WD5sxJ5HwS7) — schedule time with me
+- [Book Meeting](https://calendly.com/alin-bwscampus/30min) — schedule time with me
