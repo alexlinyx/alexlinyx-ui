@@ -12,8 +12,8 @@
 ### Do I need prior coding experience?
 <!-- TODO: answer -->
 
-### What courses are offered?
-See [Courses](/courses) for current and past offerings.
+### Where can I find you?
+My office is TBD.
 
-### How can I meet with Mr. Lin?
-[Book a time](https://calendly.com/alin-bwscampus/30min), or email alin@bwscampus.com.
+### Class of 2018? Is that the year...
+Yes

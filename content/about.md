@@ -15,7 +15,7 @@ _2026 – Present_
 _2024 – 2025_
 
 - Liquid fund PM
-- Crypto venture investing
+- Early stage crypto venture investing
 - Treasury yield management
 
 
