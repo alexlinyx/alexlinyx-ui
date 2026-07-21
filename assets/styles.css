@@ -1,24 +1,27 @@
 /* Personal knowledge base — single shared stylesheet.
+   Editorial-serif theme: book-like typography on warm paper.
    Theme-aware (light/dark via prefers-color-scheme). No external fonts. */
 
 :root {
-  --bg: #ffffff;
-  --fg: #1a1a1a;
-  --muted: #5c6672;
-  --accent: #2563eb;
-  --border: #e5e7eb;
-  --card: #f7f8fa;
-  --maxw: 44rem;
+  --bg: #faf7f0;
+  --fg: #2b2925;
+  --muted: #8a8577;
+  --accent: #7c5c34;
+  --border: #e2dcce;
+  --card: #f1ecdf;
+  --marker: #b8ab8d;
+  --maxw: 40rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0f1115;
-    --fg: #e8eaed;
-    --muted: #9aa4b2;
-    --accent: #6ea8fe;
-    --border: #262b33;
-    --card: #171a21;
+    --bg: #1c1917;
+    --fg: #e8e2d6;
+    --muted: #9a917f;
+    --accent: #c9a36a;
+    --border: #3a342c;
+    --card: #262019;
+    --marker: #6e6250;
   }
 }
 
@@ -30,8 +33,8 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  padding: 0 1.25rem;
+  font: 18px/1.75 Charter, Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  padding: 0 1.5rem;
 }
 
 /* ---- Top navigation ---- */
@@ -40,14 +43,15 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
   align-items: baseline;
-  padding: 1.5rem 0 1rem;
+  padding: 2rem 0 1.25rem;
   border-bottom: 1px solid var(--border);
 }
 .site-nav .brand {
   font-weight: 700;
-  font-size: 1.05rem;
+  font-style: italic;
+  font-size: 1.1rem;
   text-decoration: none;
   color: var(--fg);
   margin-right: auto;
@@ -58,65 +62,53 @@ body {
   font-size: 0.95rem;
 }
 .site-nav a:hover { color: var(--accent); }
-.site-nav a[aria-current="page"] { color: var(--fg); font-weight: 600; }
+.site-nav a[aria-current="page"] { color: var(--fg); }
 
 /* ---- Main content ---- */
 main {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 2rem 0 4rem;
+  padding: 2.5rem 0 4rem;
 }
-main h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.75rem; }
-main h2 { font-size: 1.35rem; margin: 2rem 0 0.5rem; }
-main h3 { font-size: 1.1rem; margin: 1.5rem 0 0.35rem; }
+main h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 0 1.25rem; letter-spacing: -0.01em; }
+main h2 { font-size: 1.5rem; margin: 2.25rem 0 0.6rem; }
+main h3 { font-size: 1.15rem; margin: 1.75rem 0 0.4rem; }
 main p {
-  margin: 0.75rem 0;
+  margin: 1rem 0;
   text-align: justify;
   -webkit-hyphens: auto;
   hyphens: auto;
 }
-main a { color: var(--accent); }
-main ul, main ol { padding-left: 1.4rem; }
-main li { margin: 0.3rem 0; }
+main a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+main ul, main ol { padding-left: 1.3rem; }
+main li { margin: 0.45rem 0; }
+main li::marker { color: var(--marker); }
 main hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
+main em { color: var(--muted); }
 main code {
   background: var(--card);
   padding: 0.1rem 0.35rem;
   border-radius: 4px;
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 main blockquote {
   margin: 1rem 0;
   padding: 0.25rem 0 0.25rem 1rem;
   border-left: 3px solid var(--border);
   color: var(--muted);
+  font-style: italic;
 }
-.error { color: #dc2626; }
+.error { color: #b3402a; }
 
-/* ---- Homepage lead + link cards ---- */
+/* ---- Homepage lead ---- */
 .lead { color: var(--muted); font-size: 1.1rem; }
-
-.cards {
-  list-style: none;
-  padding: 0;
-  margin: 2rem 0 0;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-}
-.cards a {
-  display: block;
-  padding: 1.1rem 1.25rem;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  text-decoration: none;
-  color: var(--fg);
-  transition: border-color 0.15s ease, transform 0.15s ease;
-}
-.cards a:hover { border-color: var(--accent); transform: translateY(-2px); }
-.cards strong { display: block; font-size: 1.05rem; margin-bottom: 0.25rem; }
-.cards span { color: var(--muted); font-size: 0.9rem; }
 
 /* ---- Footer ---- */
 .site-footer {
@@ -126,5 +118,6 @@ main blockquote {
   border-top: 1px solid var(--border);
   color: var(--muted);
   font-size: 0.85rem;
+  font-style: italic;
 }
 .site-footer a { color: var(--muted); }
