@@ -15,6 +15,38 @@
   const HOME_SRC = 'content/home.md';
   const FALLBACK_NAME = 'Your Name';
 
+  // ---- Light/dark toggle ----
+  // A manual choice (persisted in localStorage) overrides the system
+  // preference via [data-theme] on <html>; with no choice saved, the
+  // stylesheet follows prefers-color-scheme.
+  const root = document.documentElement;
+  const saved = localStorage.getItem('theme');
+  if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+
+  const currentTheme = () =>
+    root.getAttribute('data-theme') ||
+    (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+  const nav = document.querySelector('.site-nav');
+  if (nav) {
+    const btn = document.createElement('button');
+    btn.className = 'theme-toggle';
+    btn.type = 'button';
+    const paint = () => {
+      const dark = currentTheme() === 'dark';
+      btn.textContent = dark ? '☀' : '☾';
+      btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    };
+    btn.addEventListener('click', () => {
+      const next = currentTheme() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      paint();
+    });
+    paint();
+    nav.appendChild(btn);
+  }
+
   const mount = document.querySelector('main[data-md]');
   const src = mount ? mount.getAttribute('data-md') : null;
 
