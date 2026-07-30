@@ -21,4 +21,4 @@ please explore the links below or email alin@bwscampus.com for more info.
 - [Calendly](https://calendly.com/alin-bwscampus/30min) — schedule time with me
 - [BCIL](/bcil) — information on independent studies
 - [Courses](/courses) — current and past course offerings
-- [FAQ](/faq) — stay curious 😉
+- [Agent](https://agent.alexlinyx.com) — chat with my AI assistant

@@ -5,26 +5,27 @@ Please contact alexlinyx@gmail.com for full CV. Recruiter solicitations will be 
 
 ## Work
 
-### Computer Science Lead — [Belldegrun Center for Innovative Leadership](https://bwscampus.com/belldegrun-center-for-innovative-leadership)
+### AI and Computer Science Lead — [Belldegrun Center for Innovative Leadership](https://bwscampus.com/belldegrun-center-for-innovative-leadership)
 _2026 – Present_
 
-- Project manager for student research and businesses
-- AP CS teaching
+- Project lead for student startups in AI & software
+- Principal investigator for student research in Computer Science
+- Product manager of internal AI platform
 
-### Investor — [Anagram](https://anagram.xyz)
+### Engineer/Investor — [Anagram](https://anagram.xyz)
 _2024 – 2025_
 
 - Liquid fund PM
-- Early stage crypto venture investing
-- Treasury yield management
+- Early stage crypto venture invester
+- Trading systems engineer
 
 
 ### Trader — [Galaxy](https://galaxy.com)
 _2022 – 2024_
 
-- Cryptocurrency derivatives OTC desk
-- CeFi Data engineer
-- Options vol arbitrage
+- Cryptocurrency OTC desk
+- BTC & ETH Options market making
+- Market data engineer
 
 
 ## Education
