@@ -1,22 +1,34 @@
 # Alex Y. Lin
 
-> Personal knowledge base of Alex Y. Lin — Computer Science Lead at the Belldegrun Center for Innovative Leadership at Brentwood School in Los Angeles, CA. This site collects my background, research, projects, and the courses I teach. Each page below links to its raw Markdown, which is the cleanest form for an LLM to read.
+> Personal knowledge base of Alex Y. Lin — Computer Science Lead at the Belldegrun Center for Innovative Leadership (BCIL) at Brentwood School in Los Angeles, previously a trader and engineer in crypto/fintech.
 
-## Pages
+Important notes:
 
-- [About](https://alexlinyx.com/content/about.md): Who I am — background, interests, education, and work history
-- [Research](https://alexlinyx.com/content/research.md): Research projects and publications
-- [Projects](https://alexlinyx.com/content/projects.md): Personal and side projects
+- The site has two sections: a personal knowledge base (about, projects, research) and a school-facing section for Brentwood students and parents (BWS).
+- Each page link below points to raw Markdown — the canonical source and the cleanest form for an LLM to read.
+- An interactive AI assistant for this site lives at https://agent.alexlinyx.com.
 
-## Work — Brentwood School (BWS)
+## Personal
 
-- [BWS](https://alexlinyx.com/content/bws.md): My work as Computer Science Lead at Brentwood School
-- [BCIL](https://alexlinyx.com/content/bcil.md): Belldegrun Center for Innovative Leadership
-- [Courses](https://alexlinyx.com/content/courses.md): Courses I teach
+- [About](https://alexlinyx.com/content/about.md): Bio, work history (BCIL, Anagram, Galaxy), and education — read for questions about Alex's background or CV
+- [Projects](https://alexlinyx.com/content/projects.md): Selected personal software projects with GitHub links; work from 2022–2025 is private and proprietary
+
+## Brentwood School (BWS)
+
+- [BWS Home](https://alexlinyx.com/content/bws.md): Mr. Lin's school homepage — his role, focus, and how students and parents can reach him
+- [BCIL](https://alexlinyx.com/content/bcil.md): What the Belldegrun Center for Innovative Leadership is and its expansion into AI and software startups — read for questions about the program or submitting a project pitch
+- [Courses](https://alexlinyx.com/content/courses.md): Current and past course offerings (AP Computer Science Principles, 2026–2027)
+- [Reading](https://alexlinyx.com/content/reading.md): Articles recommended to students on building, learning, and thinking
 
 ## Contact
 
-- Email: alin@bwscampus.com
-- GitHub: https://github.com/alexlinyx
-- LinkedIn: https://www.linkedin.com/in/alex-y-lin-293757190
-- Substack: https://alexlinyx.substack.com/
+- [School email](mailto:alin@bwscampus.com): For Brentwood and BCIL matters
+- [Personal email](mailto:alexlinyx@gmail.com): For CV requests; recruiter solicitations are ignored
+- [Calendly](https://calendly.com/alin-bwscampus/30min): Book a 30-minute meeting
+- [GitHub](https://github.com/alexlinyx): Code and projects
+- [LinkedIn](https://www.linkedin.com/in/alex-y-lin-293757190): Professional profile
+- [Substack](https://alexlinyx.substack.com/): Writing
+
+## Optional
+
+- [Research](https://alexlinyx.com/content/research.md): Research and publications — currently a placeholder; content forthcoming
