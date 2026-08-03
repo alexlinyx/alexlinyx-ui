@@ -1,6 +1,7 @@
 name: Deploy to GitHub Pages
 
-# Deploys the static site (no build step) whenever main is updated.
+# Deploys the static site whenever main is updated. The only build step is
+# generating llms-full.txt from llms.txt + content/*.md so it stays in sync.
 on:
   push:
     branches: [main]
@@ -25,6 +26,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Generate llms-full.txt
+        run: python3 scripts/build_llms_full.py
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
