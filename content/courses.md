@@ -7,6 +7,12 @@ _2026 – 2027_
 
 AP Computer Science Principles explores the foundational ideas of computing. It's designed to be broad and accessible, welcoming students with no prior coding experience. You'll learn core concepts like algorithms, abstraction, programming basics, how data is stored and analyzed, how the internet works, and cybersecurity, while also examining the real-world impacts of computing on society, ethics, and privacy. The course emphasizes creativity and problem-solving, and unlike many AP classes, part of your score comes from a "Create Performance Task," a project you build over time where you design your own program, rather than relying solely on the end-of-year multiple-choice exam.
 
+Materials:
+
+- [Course and Exam Description (CED)](/files/apcsp/APCSP_CED.pdf) — the official College Board course framework
+- [Student Handout](/files/apcsp/APCSP_Student_Handout.pdf) — course overview for students
+- [Codio Student Materials](/files/apcsp/codio_student_materials.pdf) — full student coursework packet
+
 <!-- Syllabus: TODO add link -->
 
 <!-- ## Past Offerings -->

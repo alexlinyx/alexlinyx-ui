@@ -11,3 +11,8 @@ Chatbot with specified knowledge base.
 _2022 · [GitHub](https://github.com/alexlinyx/central-bank-digital-currency)_
 
 Scaling cloud computing for a high-throughput centralized blockchain. 
+
+### Lightlace
+_2020 · [GitHub](https://github.com/alexlinyx/lightlace)_
+
+iOS app that captures a person's body motion and animates a virtual character with it in augmented reality.
